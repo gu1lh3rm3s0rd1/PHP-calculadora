@@ -19,7 +19,7 @@
       <div class="calculadora">
         <form name="CALCULADORA" method="post" class="row">
           <div class="calc-form">
-            <h3>calculadora feita com php</h3><br>
+            <h3>Calculadora desenvolvida com Php</h3><br>
             <input type="text" class="form-controle" name="primeiroCampo" placeholder="Digite o primeiro número...">
             <input type="text" class="form-controle" name="segundoCampo" placeholder="Digite o segundo número...">
             <select name="op" class="form-controle">
@@ -39,7 +39,6 @@
             $b = $_POST['segundoCampo'];
             $op = $_POST['op'];
             $c = [];
-
 
             if ($op == "soma") {
               $c = $a + $b;
