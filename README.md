@@ -23,7 +23,6 @@ PHP 7.0 ou superior.
 
 ## Exemplo de Uso
 
-<?php
     include 'calculator.php';
 
     $calculator = new Calculator();
@@ -32,7 +31,6 @@ PHP 7.0 ou superior.
     $result2 = $calculator->subtract(10, 4); // Resultado: 6
     $result3 = $calculator->multiply(2, 5); // Resultado: 10
     $result4 = $calculator->divide(15, 3); // Resultado: 5
-?>
 
 ## Contribuição
 
